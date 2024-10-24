@@ -328,17 +328,17 @@ body {
         letter-spacing: 0.4rem;
     }
     .navbar-toggler{
-    
+    margin-top: 10vh;
     }
 
     html{
-        margin-right: -25vw;
+        /* margin-right: -25vw; */
         /* width: 100%; */
     }
 
     #ll{
         width: 90vw;
-        margin-left: 7vw;
+        margin-left: 0vw;
         height: 20vh;
     }
     .skill-box {
