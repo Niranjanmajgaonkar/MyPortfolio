@@ -332,8 +332,8 @@ body {
     }
 
     html{
-        margin-right: -25vw;
-        width: auto;
+        /* margin-right: -25vw; */
+        width: 100%;
     }
 
     #ll{
