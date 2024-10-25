@@ -284,6 +284,18 @@ body {
 {
 
 
+    #stack-4 li {
+        list-style: none;
+        border: 2px solid beige;
+        border-radius: 7px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-style: normal;
+        /* font-family: cursive; */
+        margin-left: 0vw;
+    }
     .card{
         border: 2px double;
     }
