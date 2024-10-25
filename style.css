@@ -296,8 +296,8 @@ body {
         /* font-family: cursive; */
         margin-left: 0vw;
     }
-    .card{
-        border: 2px double;
+    #eeee{
+        border: 1px double black;
     }
     .copyright-text{
         padding: 5vh;
