@@ -45,7 +45,7 @@ border: 2px dotted black;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     background-color: #f4f4f4;
     text-align: center;
 }
@@ -120,13 +120,13 @@ h1 {
     display: flex;
     justify-content: center;
     color: white;
-    font-style: normal;
-    font-family: cursive;
+
+
     margin-left: 0vw;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     background-color: #f4f4f4;
 }
 
@@ -219,8 +219,7 @@ body {
     display: flex;
     justify-content: center;
     color: white;
-    font-style: normal;
-    font-family: cursive;
+
     margin-left: 0vw;
 }
 
@@ -232,8 +231,7 @@ body {
     display: flex;
     justify-content: center;
     color: white;
-    font-style: normal;
-    font-family: cursive;
+  
     margin-left: 0vw;
 }
 
@@ -282,7 +280,7 @@ body {
 }
 @media screen and (min-width: 200px) and (max-width: 600px)
 {
-
+    
 
     #stack-4 li {
         list-style: none;
@@ -292,7 +290,7 @@ body {
         display: flex;
         justify-content: center;
         color: white;
-        font-style: normal;
+       
         /* font-family: cursive; */
         margin-left: 0vw;
     }
@@ -408,13 +406,14 @@ body {
     .btn-warning{
         margin-left: 3vw; margin-top: 3vh;
     }
-    
+   
 
     .container-fluid{
     background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
     /* background-color: red; */
     padding-right: 123vw;
     padding-top: 3vh;
+
 }
 
 #i{
@@ -443,6 +442,7 @@ display: none;
     margin-top: 9vh;
     justify-content: space-between;
 }
+
 }
 
 
