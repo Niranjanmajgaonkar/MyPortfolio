@@ -48,6 +48,7 @@ body {
     /* font-family: Arial, sans-serif; */
     background-color: #f4f4f4;
     text-align: center;
+    width: 100vw;
 }
 
 h1 {
@@ -308,7 +309,7 @@ body {
     
     }
     .innercontact{
-        width: 107vw;
+        width: 100%;
     }
 
     .innercontact p{
@@ -316,12 +317,12 @@ body {
     }
 
     .yyy{
-        width: 112vw;
+     width: 100%;
     }
 
     .iiii{
         margin-top: 5vh;
-        width: 112vw;
+          width: 100%;
         height: 22vh;
         margin-left: 0vw;
     }
@@ -331,13 +332,13 @@ body {
         display: flex;
         justify-content: center;
         margin-top: 4vh;
-        width: 112vw;
+          width: 100%;
     }
 #oi{
     display: flex;
     justify-content: center;
     margin-top: 4vh;
-    width: 113vw;
+      width: 100%;
 }
     #ooo{
         margin-left: 4rem;
@@ -421,10 +422,10 @@ body {
 }
 
 #i{
-    width: 117vw;
+      width: 100%;
     height: 21vh;
     margin-left: -2vw;
-    max-width: 111%;
+   
     margin-top: 29px;
     border: 2px dotted black;
 }
