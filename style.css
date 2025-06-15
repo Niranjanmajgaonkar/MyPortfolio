@@ -1,3 +1,17 @@
+   .innercontact{
+        width: 100%;
+            margin-right: 4%;
+    margin-left: 4%;
+    border: 1px dotted;
+    margin-top: 4%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    border-radius: 12px;
+
+    }
+
 .mynav{
 margin-left: 20vw;
 
