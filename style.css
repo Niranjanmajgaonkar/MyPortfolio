@@ -11,6 +11,13 @@
     border-radius: 12px;
 
     }
+/* 
+.card:hover{
+        transform: scale(1.1);
+         transform: scaleY(0.1);
+        transition-duration: 0.30s;
+        cursor: pointer;
+} */
 
 .mynav{
 margin-left: 20vw;
