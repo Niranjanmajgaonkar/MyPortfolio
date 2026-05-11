@@ -1,5 +1,6 @@
 function writeTxt(element,speed,repet=false)
 {
+    if(!element) return;
     var txt=element,a=0, string="",txtString=txt.innerHTML;
     function write()
     {
@@ -30,6 +31,7 @@ let bagToTop = document.getElementById('back-to-top');
 document.onscroll = () => BackTop();
 function BackTop()
 {
+    if(!bagToTop) return;
     let bagToTopValue = document.getElementById('progress');
     let scrTop = document.documentElement.scrollTop;
     let scrollVal = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -40,4 +42,6 @@ function BackTop()
     } else bagToTop.style.display = "none";
 }
 
-bagToTop.addEventListener("click", () => document.documentElement.scrollTop = 0);
+if(bagToTop) {
+    bagToTop.addEventListener("click", () => document.documentElement.scrollTop = 0);
+}
