@@ -45,3 +45,30 @@ function BackTop()
 if(bagToTop) {
     bagToTop.addEventListener("click", () => document.documentElement.scrollTop = 0);
 }
+
+
+const scrollBtn = document.getElementById("scrollBtn");
+const progressBar = document.getElementById("progressBar");
+const circumference = 188.4;
+
+window.addEventListener("scroll", () => {
+    let scrollTop = document.documentElement.scrollTop;
+    let scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let progress = scrollTop / scrollHeight;
+
+    let offset = circumference - (progress * circumference);
+    progressBar.style.strokeDashoffset = offset;
+
+    if (scrollTop > 200) {
+        scrollBtn.style.display = "flex";
+    } else {
+        scrollBtn.style.display = "none";
+    }
+});
+
+scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
